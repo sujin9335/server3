@@ -1,0 +1,14 @@
+package com.test.toy.map;
+
+@WebServlet("/map/delplace.do")
+public class DelPlace extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/map/delplace.jsp");
+		dispatcher.forward(req, resp);
+
+	}
+
+}

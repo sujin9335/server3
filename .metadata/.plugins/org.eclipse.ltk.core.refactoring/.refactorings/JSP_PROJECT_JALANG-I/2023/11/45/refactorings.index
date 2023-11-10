@@ -1,0 +1,9 @@
+1699514975756	Move compilation unit
+1699514981398	Rename type 'Detail'
+1699515993985	Move 'bookdetail.jsp' to 'book'
+1699515999548	Rename resource 'bookdetail.jsp'
+1699517466476	Rename resource 'detail.jsp'
+1699517482975	Rename type 'BookDetail'
+1699580316301	Move 'detail.jsp' to 'study'
+1699580334260	Rename type 'Detail'
+1699587886431	Rename type 'studyDetail'

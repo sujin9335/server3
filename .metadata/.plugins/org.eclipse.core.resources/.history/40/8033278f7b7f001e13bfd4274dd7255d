@@ -1,0 +1,14 @@
+package com.project.jr.study.mypage;
+
+@WebServlet("/study/mypage/study/list.do")
+public class StudyList extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/study/mypage/study/list.jsp");
+		dispatcher.forward(req, resp);
+
+	}
+
+}

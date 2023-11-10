@@ -1,0 +1,12 @@
+package com.test.toy.map;
+
+public class MapDTO {
+
+	private String seq;
+	private String lat;
+	private String lng;
+	
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.project.jr.crt.mypage;
+
+@WebServlet("/crt/mypage.do")
+public class List extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/crt/mypage.jsp");
+		dispatcher.forward(req, resp);
+
+	}
+
+}
